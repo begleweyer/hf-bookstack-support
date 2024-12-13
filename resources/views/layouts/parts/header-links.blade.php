@@ -2,6 +2,8 @@
 
 @if (user()->hasAppAccess())
     <a class="hide-over-l" href="{{ url('/search') }}">@icon('search'){{ trans('common.search') }}</a>
+    <a href="https://hangarflying.com"
+       data-shortcut="settings_view">HangarFlying.com</a>
     @if(userCanOnAny('view', \BookStack\Entities\Models\Bookshelf::class) || userCan('bookshelf-view-all') || userCan('bookshelf-view-own'))
         <a href="{{ url('/shelves') }}"
            data-shortcut="shelves_view">@icon('bookshelf'){{ trans('entities.shelves') }}</a>

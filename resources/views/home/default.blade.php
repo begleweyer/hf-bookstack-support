@@ -6,11 +6,11 @@
         <div class="icon-list inline block">
             @include('home.parts.expand-toggle', ['classes' => 'text-muted text-link', 'target' => '.entity-list.compact .entity-item-snippet', 'key' => 'home-details'])
         </div>
-        <div>
-            <div class="icon-list inline block">
-                @include('common.dark-mode-toggle', ['classes' => 'text-muted icon-list-item text-link'])
-            </div>
-        </div>
+{{--        <div>--}}
+{{--            <div class="icon-list inline block">--}}
+{{--                @include('common.dark-mode-toggle', ['classes' => 'text-muted icon-list-item text-link'])--}}
+{{--            </div>--}}
+{{--        </div>--}}
     </div>
 
     <div class="container" id="home-default">

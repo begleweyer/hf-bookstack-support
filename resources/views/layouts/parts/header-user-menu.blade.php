@@ -23,10 +23,10 @@
                 <div>{{ trans('preferences.my_account') }}</div>
             </a>
         </li>
-        <li><hr></li>
-        <li>
-            @include('common.dark-mode-toggle', ['classes' => 'icon-item'])
-        </li>
+{{--        <li><hr></li>--}}
+{{--        <li>--}}
+{{--            @include('common.dark-mode-toggle', ['classes' => 'icon-item'])--}}
+{{--        </li>--}}
         <li><hr></li>
         <li>
             @php

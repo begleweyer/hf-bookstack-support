@@ -21,7 +21,7 @@
         <h5>{{ trans('common.actions') }}</h5>
         <div class="icon-list text-link">
             @include('home.parts.expand-toggle', ['classes' => 'text-link', 'target' => '.entity-list.compact .entity-item-snippet', 'key' => 'home-details'])
-            @include('common.dark-mode-toggle', ['classes' => 'icon-list-item text-link'])
+{{--            @include('common.dark-mode-toggle', ['classes' => 'icon-list-item text-link'])--}}
         </div>
     </div>
 @stop

@@ -24,7 +24,7 @@
                 <span>{{ trans('entities.tags_view_tags') }}</span>
             </a>
             @include('home.parts.expand-toggle', ['classes' => 'text-link', 'target' => '.entity-list.compact .entity-item-snippet', 'key' => 'home-details'])
-            @include('common.dark-mode-toggle', ['classes' => 'icon-list-item text-link'])
+{{--            @include('common.dark-mode-toggle', ['classes' => 'icon-list-item text-link'])--}}
         </div>
     </div>
 @stop

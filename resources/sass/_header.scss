@@ -34,7 +34,7 @@ header {
   .links a {
     display: inline-block;
     padding: 10px $-m;
-    color: #FFF;
+    color: rgb(115, 115, 115) !important;
     border-radius: 3px;
   }
   .links a:hover {
@@ -122,7 +122,7 @@ header .search-box {
   top: 10px;
   color: #FFF;
   opacity: 0.6;
-  @include lightDark(color, rgba(255, 255, 255, 0.8), #AAA);
+  @include lightDark(color, rgba(255, 255, 255, 0.8), #090909);
   svg {
     margin-inline-end: 0;
   }
